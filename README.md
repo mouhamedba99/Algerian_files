@@ -1,1 +1,4 @@
-# Algerian_files
+
+# 🔥 Prédiction des Incendies de Forêt en Algérie (ML & Streamlit)
+
+Ce projet a pour but de développer un modèle de classification en **Python** pour prédire l'occurrence des **incendies de forêt en Algérie** (`fire` ou `not fire`), en exploitant le **Dataset des Incendies de Forêt en Algérie**. Le notebook `Algerian_prediction.ipynb` présente l'intégralité du travail, y compris les étapes cruciales de nettoyage des données (segmentation régionale, gestion des anomalies) et l'entraînement du modèle basé sur des indices de danger d'incendie (FFMC, DMC, FWI). Le point fort du projet réside dans son **déploiement** via une application interactive **Streamlit** (fichier `app.py`), permettant une visualisation conviviale et une évaluation instantanée du risque de feu à partir des paramètres climatiques, le tout étant implémenté à l'aide des librairies `pandas`, `seaborn` et **`scikit-learn`**.
